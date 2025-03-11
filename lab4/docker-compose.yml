@@ -6,7 +6,7 @@ services:
       context: .
     container_name: php_app
     volumes:
-      - ./app:/var/www/html
+      - ./web:/var/www/html
     ports:
       - "8080:80"
     depends_on:
